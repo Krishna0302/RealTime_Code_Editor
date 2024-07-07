@@ -1,0 +1,91 @@
+/* Home Page Css */
+
+.homePageWrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.formWrapper{
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.homePageLogo{
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.mainLable{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox{
+  padding: 6px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #eee;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+
+.joinBtn{
+  width: 70px;
+  background-color: indigo;
+  color: white;
+  margin-left: 160px;
+}
+
+.joinBtn:hover, .leaveBtn:hover{
+  background-color: rgb(43, 6, 69);
+}
+
+.createInfo{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.createNewBtn{
+  color: rgb(131, 67, 176);
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.createNewBtn:hover{
+  color: rgb(249, 249, 249);
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  right: 44%;
+}
+
+footer a{
+  color: rgb(131, 67, 176);
+  text-decoration: none;
+}
+
