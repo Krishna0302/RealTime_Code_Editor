@@ -42,7 +42,7 @@ const Home = () => {
             <div className="formWrapper">
                 <img
                     className="homePageLogo"
-                    src="/c (2) (1).png" alt="code-logo"
+                    src="/c (4).png" alt="code-logo"
                 />
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
