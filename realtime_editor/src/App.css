@@ -142,8 +142,23 @@ footer a{
   color: #fff;
 }
 
+.editor-bar{
+  color: #eee;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.seLang{
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+  text-align-last: center;
+  background-color: rgb(76, 44, 97);
+  color: #fff;
+}
+
 .CodeMirror{
-  min-height: calc(100vh - 20px);
+  min-height: calc(100vh - 51px);
     font-size: 15px;
     line-height: 1.6;
     padding-top: 15px;
